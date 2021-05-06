@@ -4,6 +4,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+
 }
 
 .menu-bars {
@@ -20,7 +21,7 @@
     justify-content: center;
     position: fixed;
     top: 0;
-    left: -100%; 
+    left: -100%;
     transition: 850ms;
 }
 
@@ -56,6 +57,7 @@
 
 .nav-menu-items {
     width: 100%;
+    
 }
 
 .navbar-toggle {

@@ -6,6 +6,10 @@ import Add_recipe from './Pages/Add_recipe';
 import Breakfast from './Pages/Breakfast';
 import Dinner from './Pages/Dinner';
 import Lunch from './Pages/Lunch';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+
 
 function App() {
   return (
@@ -18,7 +22,6 @@ function App() {
        <Route path='/lunch' component={Lunch} />
        <Route path='/add_recipe' component={Add_recipe} />
      </Switch>
-
     </Router>
     </>
   );
