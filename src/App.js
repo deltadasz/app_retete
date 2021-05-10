@@ -14,7 +14,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
+    <div className="App">
     <Router>
+      <div>
      <Navbar />
      <Switch>
        <Route path='/breakfast' exact component={Breakfast} />
@@ -22,7 +24,10 @@ function App() {
        <Route path='/lunch' component={Lunch} />
        <Route path='/add_recipe' component={Add_recipe} />
      </Switch>
+   </div>
     </Router>
+  </div>
+
     </>
   );
 }

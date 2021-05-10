@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../components/Firebase';
 import '../components/CardUI.css';
-import { Card, Button } from 'react-bootstrap';
+import { Card, Button, Dropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -44,7 +44,14 @@ function Lunch() {
             <Card.Body>
               <Card.Title>{reteta.nume}</Card.Title>
               <Card.Text>{reteta.descriere}</Card.Text>
-              <Button variant="primary">Go Somewhere</Button>
+                <Dropdown>
+                  <Dropdown.Toggle variant="success" id="dropdown-basic">
+                    Ingrediente
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu>
+                    <Dropdown.Item>{reteta.ingrediente}</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
             </Card.Body>
           </Card>
 

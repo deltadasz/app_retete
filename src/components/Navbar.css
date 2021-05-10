@@ -4,6 +4,8 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    position: absolute;
+    z-index: 9999;
 
 }
 
@@ -23,11 +25,13 @@
     top: 0;
     left: -100%;
     transition: 850ms;
+    z-index: 9999;
 }
 
 .nav-menu.active {
     left: 0;
     transition: 350ms;
+    z-index: 9999;
 }
 
 .nav-text {
@@ -57,7 +61,9 @@
 
 .nav-menu-items {
     width: 100%;
-    
+    position: relative;
+    z-index: 9999;
+
 }
 
 .navbar-toggle {

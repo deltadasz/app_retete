@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../components/Firebase';
 import '../components/CardUI.css';
-import { Card, Button } from 'react-bootstrap';
+import { Card, Button, Dropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
