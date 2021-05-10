@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Col, Row, Form, Button, Container } from 'react-bootstrap';
 import './Add_recipe.css';
-import { db } from '../components/Firebase.js';
+import { db } from '../components/Firebase';
 
 
 const Add_recipe = () => {

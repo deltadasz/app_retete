@@ -1,5 +1,6 @@
 import firebase from 'firebase'
-import 'firebase/storage'
+import "firebase/firestore";
+
 
 
 var firebaseApp = firebase.initializeApp ({
@@ -8,10 +9,7 @@ var firebaseApp = firebase.initializeApp ({
   authDomain: "app-retete.firebaseapp.com",
   databaseURL: "https://app-retete-default-rtdb.firebaseio.com",
   projectId: "app-retete",
-  storageBucket: "app-retete.appspot.com",
-  messagingSenderId: "429351159271",
-  appId: "1:429351159271:web:9bec696782f4cf027be942",
-  measurementId: "G-H5Q8EMWC4L"
+
 
   });
 
