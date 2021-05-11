@@ -55,8 +55,14 @@
     border-radius: 4px;
 }
 
+.adauga_mancare {
+  background: black;
+}
+
 .nav-text a:hover {
     background-color: #1a83ff;
+    text-decoration: none;
+    color: #f5f5f5;
 }
 
 .nav-menu-items {
@@ -77,4 +83,12 @@
 
 span {
     margin-left: 16px;
+}
+
+.page-logo {
+  width: 170px;
+  height: auto;
+  margin-right: 45%;
+  
+
 }

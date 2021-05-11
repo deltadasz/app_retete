@@ -28,6 +28,7 @@ export const SidebarData = [
         title: 'Add Recipe',
         path: '/add_recipe',
         icon: <BiIcons.BiMessageSquareAdd/>,
-        cName: 'nav-text'
+      cName: 'nav-text'
+
     },
 ]

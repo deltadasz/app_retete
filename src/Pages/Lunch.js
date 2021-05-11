@@ -46,7 +46,7 @@ function Lunch() {
               <Card.Text>{reteta.descriere}</Card.Text>
                 <Dropdown>
                   <Dropdown.Toggle variant="success" id="dropdown-basic">
-                    Ingrediente
+                    Ingredients
                   </Dropdown.Toggle>
                   <Dropdown.Menu>
                     <Dropdown.Item>{reteta.ingrediente}</Dropdown.Item>

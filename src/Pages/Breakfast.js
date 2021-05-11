@@ -3,6 +3,7 @@ import { db } from '../components/Firebase';
 import '../components/CardUI.css';
 import { Card, Button, Dropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Loader from 'react-loaders';
 
 
 
@@ -46,7 +47,7 @@ function Breakfast() {
               <Card.Text>{reteta.descriere}</Card.Text>
               <Dropdown>
                 <Dropdown.Toggle variant="success" id="dropdown-basic">
-                  Ingrediente
+                  Ingredients
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
                   <Dropdown.Item>{reteta.ingrediente}</Dropdown.Item>

@@ -44,7 +44,14 @@ function Dinner() {
             <Card.Body>
               <Card.Title>{reteta.nume}</Card.Title>
               <Card.Text>{reteta.descriere}</Card.Text>
-              <Button variant="primary">Go Somewhere</Button>
+                <Dropdown>
+                  <Dropdown.Toggle variant="success" id="dropdown-basic">
+                    Ingredients
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu>
+                    <Dropdown.Item>{reteta.ingrediente}</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
             </Card.Body>
           </Card>
 
